@@ -1,0 +1,70 @@
+:root {
+    --color-primary: #007bff;
+    --color-primary-hover: #0056b3;
+    --color-primary-light: #e3f2fd;
+
+    --color-secondary: #6c757d;
+    --color-secondary-hover: #545b62;
+    --color-secondary-light: #f8f9fa;
+
+    --color-success: #28a745;
+    --color-success-hover: #1e7e34;
+    --color-success-light: #d4edda;
+
+    --color-danger: #dc3545;
+    --color-danger-hover: #bd2130;
+    --color-danger-light: #f8d7da;
+
+    --color-warning: #ffc107;
+    --color-warning-hover: #e0a800;
+    --color-warning-light: #fff3cd;
+
+    --color-info: #17a2b8;
+    --color-info-hover: #138496;
+    --color-info-light: #d1ecf1;
+
+    /* Текст */
+    --color-text-primary: #212529;
+    --color-text-secondary: #6c757d;
+    --color-text-disabled: #adb5bd;
+
+    /* Фоны */
+    --color-background-primary: #ffffff;
+    --color-background-secondary: #f8f9fa;
+
+    /* Границы */
+    --color-border: #dee2e6;
+    --color-border-hover: #ced4da;
+    --color-border-focus: var(--color-primary);
+
+    /* Тени */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --color-primary-hover-bs: #000;
+
+    /* Скругления */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-full: 9999px;
+
+    /* Отступы */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    /* Размеры */
+    --size-xs: 20px;
+    --size-sm: 32px;
+    --size-md: 40px;
+    --size-lg: 48px;
+    --size-xl: 56px;
+
+    /* Транзишены */
+    --transition-fast: 150ms;
+    --transition-medium: 250ms;
+    --transition-slow: 350ms;
+}
