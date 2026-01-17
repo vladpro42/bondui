@@ -1,5 +1,7 @@
 import './App.css'
 import { Button } from './components/Button'
+import { Input } from './components/Input';
+import { Label } from './components/Label';
 
 function App() {
 
@@ -48,6 +50,13 @@ function App() {
         <form onSubmit={(e) => { e.preventDefault(); alert('Submitted!'); }}>
           <Button type="submit">Отправить форму</Button>
         </form>
+
+
+        <Label>
+          <Input type="text" name='name' inputSize='large' placeholder='input something' />
+        </Label>
+        <Label htmlFor='input'>Click me</Label>
+        <Input id='input' type="text" name='name' inputSize='large' placeholder='input something' />
       </div>
     </>
   )
